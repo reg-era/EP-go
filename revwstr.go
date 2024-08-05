@@ -5,13 +5,13 @@ import "github.com/01-edu/z01"
 func Revwstr(str string) {
 }
 
-func split(str, sb string) []string {
-	for i := 0; i < len(str); i++ {
-		if str[i] == sb[0] && match(str[i:], sb) {
-		}
-	}
-	return
-}
+// func split(str, sb string) []string {
+// 	for i := 0; i < len(str); i++ {
+// 		if str[i] == sb[0] && match(str[i:], sb) {
+// 		}
+// 	}
+// 	return
+// }
 
 func Match(str1, str2 string) (bool, int) {
 	tmp := 1
